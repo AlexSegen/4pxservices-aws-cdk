@@ -13,7 +13,7 @@
 ---
 <!--END STABILITY BANNER-->
 
-This example creates the infrastructure for a static site, which uses an S3 bucket for storing the content.  The site contents (located in the 'site-contents' sub-directory) are deployed to the bucket.
+This example creates the infrastructure for a static site, which uses an S3 bucket for storing the content.  The site contents (located in the 'client/build/site-contents' sub-directory) are deployed to the bucket.
 
 The site redirects from HTTP to HTTPS, using a CloudFront distribution, Route53 alias record, and ACM certificate.
 
